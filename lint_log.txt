@@ -1,0 +1,2 @@
+info  - Loaded env from C:\Users\Admin\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\.env
+✔ No ESLint warnings or errors
