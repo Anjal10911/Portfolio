@@ -13,9 +13,13 @@ export function Clients() {
         viewport={{ once: true }}
         className="container mx-auto text-center"
       >
-        <Typography variant="h6" className="mb-4 text-red-500 font-semibold uppercase tracking-wider">
+        <Typography
+          variant="h6"
+          className="mb-4 text-red-500 font-semibold uppercase tracking-wider"
+        >
           Projects & Collaborations
         </Typography>
+
         <Typography className="mx-auto w-full lg:w-6/12 !text-gray-300 text-lg leading-relaxed">
           {"My work is grounded in research and practical security application. "}
           {"From AI driven vulnerability scanners to secure healthcare platforms, I collaborate on projects that demand reliability and innovation. "}
