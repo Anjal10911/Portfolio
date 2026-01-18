@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/next-script-for-ga */
+import { ThemeProvider } from "@material-tailwind/react";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
@@ -34,13 +35,15 @@ export default function RootLayout({
         ></script>
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
-      <body className={roboto.className}>
-        <Layout>
-          <SmoothScroll />
-          {children}
-          <FixedPlugin />
-        </Layout>
-      </body>
+     <body className={roboto.className}>
+  <ThemeProvider>
+    <Layout>
+      <SmoothScroll />
+      {children}
+      <FixedPlugin />
+    </Layout>
+  </ThemeProvider>
+</body>
     </html>
   );
 }
