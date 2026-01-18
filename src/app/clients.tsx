@@ -17,9 +17,9 @@ export function Clients() {
           Projects & Collaborations
         </Typography>
         <Typography className="mx-auto w-full lg:w-6/12 !text-gray-300 text-lg leading-relaxed">
-          My work is grounded in research and practical security application.
-          From AI driven vulnerability scanners to secure healthcare platforms, I collaborate on projects that demand reliability and innovation.
-          If you&apos;re looking for a partner in building secure systems, let&apos;s connect.
+          {"My work is grounded in research and practical security application. "}
+          {"From AI driven vulnerability scanners to secure healthcare platforms, I collaborate on projects that demand reliability and innovation. "}
+          {"If you're looking for a partner in building secure systems, let's connect."}
         </Typography>
       </motion.div>
     </section>
